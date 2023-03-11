@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .logo {
+    width: 12%;
+
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    margin-top: 1.5rem;
+}
+
+nav a {
+    font-size: 20px;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(28, 28, 92);
+}
+
+.one {
+    background-image: url(https://www.simbrella.com/site/assets/files/1040/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 18rem 5rem;
+
+}
+
+.one .onetext h1 {
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.one .onetext p {
+    font-size: 17px;
+
+}
+
+.one .oneicon {
+    margin-top: 10rem;
+}
+
+.oneicon a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.photo img {
+    width: 50%;
+}
+
+section .all {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    overflow: hidden;
+    transition: 0.3;
+
+}
+
+.box {
+    width: 31%;
+    padding: 4rem;
+    text-align: center;
+    border: 0.1px solid rgb(203, 203, 228);
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
